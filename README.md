@@ -2,6 +2,7 @@
 
 
 Data 
+-------------------------------------------------------------------------------------------------------
 
 SVRT task 1:
 
@@ -66,15 +67,29 @@ In the loaddata.py file, you have to specify what shapes are used for training a
 
 
 Model
+-------------------------------------------------------------------------------------------------------
+
 
 Use either the OCRA_demo or Resnet_demo notebooks to train the model on this task. 
 
 
+Results 
+-------------------------------------------------------------------------------------------------------
+
+### Sample model output 
 
 
-[1] https://fleuret.org/cgi-bin/gitweb/gitweb.cgi?p=svrt.git;a=summary
+<img src="https://github.com/Hosseinadeli/OCRA_samediff/blob/main/figures/generated_10_time_steps_t3.gif">
 
-[2] https://github.com/GuillermoPuebla/RelationReasonNN
+
+-------------------------------------------------------------------------------------------------------
+Code references:
+
+[1] [OCRA](https://github.com/Hosseinadeli/OCRA)
+
+[2] [SVRT dataset](https://fleuret.org/cgi-bin/gitweb/gitweb.cgi?p=svrt.git;a=summary)
+
+[3] [SVRT generalization dataset](https://github.com/GuillermoPuebla/RelationReasonNN)
 
 
 
