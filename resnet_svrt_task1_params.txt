@@ -1,0 +1,35 @@
+
+{
+ #############
+ # task info
+ #############
+ "task": "svrt_task1", 
+ "num_classes": 2,
+ "num_targets": 1,
+ "image_dims": (1, 64, 64),
+ "cat_dup": False, # if True, objects can come from the same category 
+ 
+ ######################
+ # training and testing
+ ######################
+ "n_epochs": 100,
+ "lr": 0.001,
+ "train_batch_size": 128,
+ "test_batch_size": 128,
+ "cuda": 0, # cuda device number
+
+ ##########################
+ # directories and logging
+ ##########################
+ "data_dir": "./data/",
+ "output_dir": "./results/svrt_task1/",# where best performing model will be saved and log_dir is created 
+ "restore_file": None, #"./results/svrt_task1/Sep05_2817_allgen_lam20_arrows/state_checkpoint.pt", # checkpoint file to restore and resume training, if none, set as None
+ 
+ "save_checkpoint": True, # save checkpoint
+ "record_gradnorm": False, # whether log model gradnorm to writer
+ "record_attn_hooks": False, # whether record forward and backward attention hooks
+ "validate_after_howmany_epochs": 1, # validate after how many epoch
+ "best_val_acc": 0, # only save model that achieved val_acc above this value
+ "verbose": True, # whether print validation loss/acc
+ 
+ }
