@@ -5,7 +5,7 @@ Data
 
 SVRT task 1:
 
-You can generate the SVRT sample images using the author's repo [1] or you can download the images directly from this link (64x64 pixels). Then unzip the file to this folder './data/svrt_dataset/svrt_task1_64x64'. Then run the cells in svrt_task1_stimuli_util.ipynb notebook to preprocess them. Download preprocessed files from here.
+You can generate the SVRT sample images using the author's repo [1] or you can [download the images directly from this link](https://drive.google.com/file/d/1QVlrslXtK4sqPZKPh4VPFdUFp_g_ft9e/view?usp=sharing) (64x64 pixels). Then unzip the file to this folder './data/svrt_dataset/svrt_task1_64x64'. Then run the cells in svrt_task1_stimuli_util.ipynb notebook to preprocess them. Download preprocessed files from here.
 
 SVRT task 1 generalization:
 
