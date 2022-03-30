@@ -20,7 +20,7 @@ SVRT task 1 generalization:
 
 The code here is modified from the auhtor's repo [3]. Run the cells in svrt_task1_stimuli_util.ipynb notebook to generate the images and save them in the preprocessed format. You have to run the top notebook to preprocess the task 1 imgaes as well if you plan to run the model on the OOD task only. [Download all the preprocessed files for this task from this link](https://drive.google.com/file/d/1Tbx2U9bdB0p7wqHNk-v2RZmA6_a9vWs0/view?usp=sharing) and unzip the files to './data/svrt_dataset/'.
 
-In the loaddata.py file, you have to specify what shapes are used for training and shapes images are used for validation and testing. The defalut is to train, validate and test on images for the second task (as shown below). In order to only train and test on task 1, comment all the other ones except for 'svrt_task1'.
+In the **loaddata.py** file, you have to specify what images are used for training and what images are used for validation and testing. The defalut is to train, validate and test on images for the second task (as shown below). In order to only train and test on task 1, comment all the other ones except for 'svrt_task1'.
 
             dataset_names_train = [
                             'svrt_task1',
