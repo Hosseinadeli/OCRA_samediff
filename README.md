@@ -97,7 +97,7 @@ Code references:
 
 [2] [SVRT dataset](https://fleuret.org/cgi-bin/gitweb/gitweb.cgi?p=svrt.git;a=summary)
 
-[3] [SVRT generalization dataset](https://github.com/GuillermoPuebla/RelationReasonNN)
+[3] [SVRT generalization dataset](https://github.com/GuillermoPuebla/same_different_paper)
 
 
 
