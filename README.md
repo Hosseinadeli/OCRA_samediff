@@ -1,6 +1,6 @@
 # OCRA_samediff
 
-This is the respository for applying OCRA[1] to the relational reasnong task 1 in the SVRT[2] benchmark. 
+This is the respository for applying OCRA[1] to the relational reasoning task 1 in the SVRT[2] benchmark. 
 
 [Hossein Adeli](https://hosseinadeli.github.io/)
 
