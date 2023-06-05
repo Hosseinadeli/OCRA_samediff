@@ -6,7 +6,21 @@ This is the respository for applying OCRA[1] to the relational reasoning task 1 
 
 Please cite this article if you find this repository useful:
 
-Adeli, H., Ahn, S., & Zelinsky, G. (2021). Recurrent Attention Models with Object-centric Capsule Representation for Multi-object Recognition. arXiv preprint arXiv:2110.04954. [[arxiv](https://arxiv.org/abs/2110.04954)][[pdf](https://arxiv.org/pdf/2110.04954.pdf)] <br/>
+Please cite this article if you find this repository useful:
+
+Adeli, H., Ahn, S., & Zelinsky, G. J. (2023). A brain-inspired object-based attention network for multiobject recognition and visual reasoning. Journal of Vision, 23(5), 16-16. [[link](https://jov.arvojournals.org/article.aspx?articleid=2785636)] [[google scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=EdIFZpQAAAAJ&sortby=pubdate&citation_for_view=EdIFZpQAAAAJ:qUcmZB5y_30C)]<br/>
+
+``` bibtex
+@article{adeli2023brain,
+  title={A brain-inspired object-based attention network for multiobject recognition and visual reasoning},
+  author={Adeli, Hossein and Ahn, Seoyoung and Zelinsky, Gregory J},
+  journal={Journal of Vision},
+  volume={23},
+  number={5},
+  pages={16--16},
+  year={2023},
+  publisher={The Association for Research in Vision and Ophthalmology}
+}
 
 
 Data 
